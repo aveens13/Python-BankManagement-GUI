@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(30, 30, 30);
+border-radius:20px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button1">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:#fb2525;;
+border-radius:20px;
+border-style:outset;
+}
+
+QPushButton:hover{
+background-color:rgb(250, 192, 192);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 50px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Account Details</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Interest:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Balance:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>320</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:#fb2525;;
+border-radius:20px;
+border-style:outset;
+}
+
+QPushButton:hover{
+background-color:rgb(250, 192, 192);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Deposit Balance</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:#fb2525;;
+border-radius:20px;
+border-style:outset;
+}
+
+QPushButton:hover{
+background-color:rgb(250, 192, 192);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Withdraw Balance</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line1">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>330</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 10pt &quot;SansSerif&quot;;
+border-radius:10px;
+border-bottom:2px solid maroon ;
+background: transparent;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 100%;
+padding: 0 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>400</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 10pt &quot;SansSerif&quot;;
+border-radius:10px;
+border-bottom:2px solid maroon ;
+background: transparent;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 100%;
+padding: 0 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Deposit Here:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Withdraw Here:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Avinav Bhattarai</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="interest">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>230</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>$1500</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="balance">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>180</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>$200000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="log">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>480</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>130</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Account Number :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="account_num">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+font: 40px &quot;Microsoft Himalaya&quot;;
+border-radius:20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>2443</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
